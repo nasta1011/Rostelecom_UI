@@ -7,12 +7,12 @@
 - анализ граничных значений
 - тестирование состояний и переходов
 
-### [чек-лист/тест-кейсы/баг-репорты](https://1drv.ms/x/s!Al0mMJVTqsVNgwzQIcgb8DBeCcKa?e=uMrYMa)
+### [чек-лист/тест-кейсы/баг-репорты](https://1drv.ms/x/s!AuljYMY46MtlglbUYD2eWz9H7Xcg?e=tdzJEF)
 ### Тесты настроены на запуск через Run! 
-### Страница восстановления пароля (как позитивные, так и негативные тесты) требует РУЧНОЙ ВВОД СИМВОЛОВ С КАРТИНКИ !!!
+### Страница восстановления пароля требует ручной ввод символов с картинки
 
 ### Окружение: 
-MacOS Monterey Version 12.5/ Chrome Version 108.0.5359.98 (Official Build) (arm64)   
+MacOS Ventura Version 13.5.1/ Chrome Version 108.0.5359.98 (Official Build) (arm64)   
 Функция browser.find_element(locator).clear() почему-то не работает!   
 Использована комбинация:   
 .send_keys(Keys.COMMAND, 'a')   
